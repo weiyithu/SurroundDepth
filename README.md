@@ -1,5 +1,5 @@
 # SurroundDepth
-### [Project Page](https://surrounddepth.ivg-research.xyz/) | [Paper](https://arxiv.org/abs/2109.01129) | [Data](https://cloud.tsinghua.edu.cn/d/8c4541693833471e8b13/)
+### [Project Page](https://surrounddepth.ivg-research.xyz/) | [Paper](https://arxiv.org/abs/2109.01129) | [Data](https://cloud.tsinghua.edu.cn/d/e3239333171342889ff2/)
 <br/>
 
 > SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation       
@@ -17,10 +17,10 @@ Depth estimation from images serves as the fundamental step of 3D perception for
 
 | type     | dataset | Abs Rel | Sq Rel | delta < 1.25 | download |  
 |:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-| scale-ambiguous | DDAD | 0.200  | 3.392 | 0.740 | [model]() |
-| scale-aware | DDAD | 0.208  | 3.371 | 0.693 | [model]() |
-| scale-ambiguous | nuScenes | 0.245  | 3.067 | 0.719 | [model]() |
-| scale-aware | nuScenes | 0.280  | 4.401 | 0.661 | [model]() |
+| scale-ambiguous | DDAD | 0.200  | 3.392 | 0.740 | [model](https://cloud.tsinghua.edu.cn/f/cd479340e96440959113/?dl=1) |
+| scale-aware | DDAD | 0.208  | 3.371 | 0.693 | [model](https://cloud.tsinghua.edu.cn/f/868d0ebce0eb40568be1/?dl=1) |
+| scale-ambiguous | nuScenes | 0.245  | 3.067 | 0.719 | [model](https://cloud.tsinghua.edu.cn/f/72717fa447f749e38480/?dl=1) |
+| scale-aware | nuScenes | 0.280  | 4.401 | 0.661 | [model](https://cloud.tsinghua.edu.cn/f/caad458a790c48e380d4/?dl=1) |
 
 ## Install
 * python 3.8, pytorch 1.8.1, CUDA 11.4, RTX 3090
@@ -37,7 +37,7 @@ Datasets are assumed to be downloaded under `data/<dataset-name>`.
 
 ### DDAD
 * Please download the official [DDAD dataset](https://tri-ml-public.s3.amazonaws.com/github/DDAD/datasets/DDAD.tar) and place them under `data/ddad/raw_data`. You may refer to official [DDAD repository](https://github.com/TRI-ML/DDAD) for more info and instructions.
-* Please download [metadata]() of DDAD and place these pkl files in `datasets/ddad`.
+* Please download [metadata](https://cloud.tsinghua.edu.cn/f/50cb1ea5b1344db8b51c/?dl=1) of DDAD and place these pkl files in `datasets/ddad`.
 * We provide annotated self-occlusion masks for each sequences. Please download [masks]() and place them in `data/ddad/mask`.
 * Export depth maps for evaluation 
 ```bash
@@ -114,7 +114,7 @@ Then we select the best pretrained model.
 ```bash
 python -m torch.distributed.launch --nproc_per_node 8  run.py  --model_name ddad_scale  --config configs/ddad_scale.txt  --load_weights_folder=${best pretrained}
 ```
-We observe that the training on nuScenes dataset is unstable and easy to overfit. Also, the results with 4 GPUs are much better than 8 GPUs. Thus, we set fewer epochs and use 4 GPUs for nuScenes experiments. We also provide SfM pretrained model on [DDAD]() and [nuScenes]().  
+We observe that the training on nuScenes dataset is unstable and easy to overfit. Also, the results with 4 GPUs are much better than 8 GPUs. Thus, we set fewer epochs and use 4 GPUs for nuScenes experiments. We also provide SfM pretrained model on [DDAD](https://cloud.tsinghua.edu.cn/f/a73050a35bc2412e9639/?dl=1) and [nuScenes](https://cloud.tsinghua.edu.cn/f/483f5e7ece2043cebbdd/?dl=1).  
 
 ## Evaluation
 ```bash
