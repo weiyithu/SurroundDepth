@@ -2,7 +2,7 @@
 ### [Project Page](https://weiyithu.github.io/NerfingMVS) | [Paper](https://arxiv.org/abs/2109.01129) | [Data](https://cloud.tsinghua.edu.cn/d/8c4541693833471e8b13/)
 <br/>
 
-> SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation
+> SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation       
 > [Yi Wei*](https://weiyithu.github.io/), [Linqing Zhao*](https://github.com/lqzhao), [Wenzhao Zheng](https://scholar.google.com/citations?user=LdK9scgAAAAJ&hl=en), [Zheng Zhu](http://www.zhengzhu.net/), [Yongming Rao](https://raoyongming.github.io/), Guan Huang, [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1)  
 
 <p align='center'>
