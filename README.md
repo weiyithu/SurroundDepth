@@ -25,6 +25,7 @@ Depth estimation from images serves as the fundamental step of 3D perception for
 ## Install
 * python 3.8, pytorch 1.8.1, CUDA 11.4, RTX 3090
 ```bash
+git clone https://github.com/weiyithu/SurroundDepth.git
 conda create -n surrounddepth python=3.8
 conda activate surrounddepth
 pip install -r requirements.txt
