@@ -6,7 +6,7 @@
 > [Yi Wei*](https://weiyithu.github.io/), [Linqing Zhao*](https://github.com/lqzhao), [Wenzhao Zheng](https://scholar.google.com/citations?user=LdK9scgAAAAJ&hl=en), [Zheng Zhu](http://www.zhengzhu.net/), [Yongming Rao](https://raoyongming.github.io/), Guan Huang, [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1)  
 
 <p align='center'>
-<img src="https://cloud.tsinghua.edu.cn/f/3b629ca91d4545c4b933/" width='80%'/>
+<img src="https://github.com/weiyithu/weiyithu.github.io/blob/main/images/surrounddepth.gif" width='80%'/>
 </p>
 
 
