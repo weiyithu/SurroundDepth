@@ -3,6 +3,7 @@
 <br/>
 
 > SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation
+
 > [Yi Wei*](https://weiyithu.github.io/), [Linqing Zhao*](https://github.com/lqzhao), [Wenzhao Zheng](https://scholar.google.com/citations?user=LdK9scgAAAAJ&hl=en), [Zheng Zhu](http://www.zhengzhu.net/), [Yongming Rao](https://raoyongming.github.io/), Guan Huang, [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1)  
 
 <p align='center'>
@@ -29,7 +30,7 @@ conda create -n surrounddepth python=3.8
 conda activate surrounddepth
 pip install -r requirements.txt
 ```
-Since we use [dgp codebase](https://github.com/TRI-ML/dgp) to generate groundtruth depth, yu should also install it. 
+Since we use [dgp codebase](https://github.com/TRI-ML/dgp) to generate groundtruth depth, you should also install it. 
 
 ## Data Preparation
 Datasets are assumed to be downloaded under `data/<dataset-name>`.
