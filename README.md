@@ -1,5 +1,5 @@
 # SurroundDepth
-### [Project Page](https://weiyithu.github.io/NerfingMVS) | [Paper](https://arxiv.org/abs/2109.01129) | [Data](https://cloud.tsinghua.edu.cn/d/8c4541693833471e8b13/)
+### [Project Page](https://surrounddepth.ivg-research.xyz/) | [Paper](https://arxiv.org/abs/2109.01129) | [Data](https://cloud.tsinghua.edu.cn/d/8c4541693833471e8b13/)
 <br/>
 
 > SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation       
