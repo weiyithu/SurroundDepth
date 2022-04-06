@@ -3,7 +3,6 @@
 <br/>
 
 > SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation
-
 > [Yi Wei*](https://weiyithu.github.io/), [Linqing Zhao*](https://github.com/lqzhao), [Wenzhao Zheng](https://scholar.google.com/citations?user=LdK9scgAAAAJ&hl=en), [Zheng Zhu](http://www.zhengzhu.net/), [Yongming Rao](https://raoyongming.github.io/), Guan Huang, [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1)  
 
 <p align='center'>
