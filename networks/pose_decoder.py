@@ -44,9 +44,6 @@ class PoseDecoder(nn.Module):
 
         out = cat_features
 
-        #out = input_features[-1].detach()
-        #out = self.convs["squeeze"](out)
-        #out = self.relu(out)
         for i in range(3):
             out = self.convs[("pose", i)](out)
             if i != 2:
@@ -57,11 +54,5 @@ class PoseDecoder(nn.Module):
         out = 0.01 * out.view(-1, self.num_frames_to_predict_for, 1, 6)
         axisangle = out[..., :3]
         translation = out[..., 3:]
-
-        #m = out.mean(3).mean(2)
-
-        #n = 0.01 * m.view(-1, self.num_frames_to_predict_for, 1, 6)
-        #axisangle = n[..., :3].clone()
-        #translation = n[..., 3:].clone()
 
         return axisangle, translation

@@ -15,7 +15,7 @@ file_dir = os.path.dirname(__file__)  # the directory that options.py resides in
 class MonodepthOptions:
     def __init__(self):
         self.parser = configargparse.ArgumentParser()
-        
+
         self.parser.add_argument('--config', is_config_file=True,
                                  help='config file path')
 
@@ -124,7 +124,7 @@ class MonodepthOptions:
                                  help="spatial photometric loss weight",
                                  default=0.1)
         self.parser.add_argument("--skip",
-                                 help="if set, use sfm pseudo label",
+                                 help="if set, use skip connection in CVT",
                                  action="store_true")
         self.parser.add_argument("--focal",
                                  help="if set, use sfm pseudo label",
