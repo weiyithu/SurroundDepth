@@ -132,7 +132,7 @@ If you find this project useful in your research, please consider cite:
 @article{wei2022surround,
     title={SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation},
     author={Wei, Yi and Zhao, Linqing and Zheng, Wenzhao and Zhu, Zheng and Rao, Yongming and Huang ,Guan and Lu, Jiwen and Zhou, Jie},
-    journal={arXiv preprint arXiv:2022.6980},
+    journal={arXiv preprint arXiv:2204.03636},
     year={2022}
 }
 ```
