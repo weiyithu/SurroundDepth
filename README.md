@@ -1,5 +1,5 @@
 # SurroundDepth
-### [Project Page](https://surrounddepth.ivg-research.xyz/) | [Paper](https://arxiv.org/abs/2109.01129) | [Data](https://cloud.tsinghua.edu.cn/d/e3239333171342889ff2/)
+### [Project Page](https://surrounddepth.ivg-research.xyz/) | [Paper](https://arxiv.org/abs/2204.03636) | [Data](https://cloud.tsinghua.edu.cn/d/e3239333171342889ff2/)
 <br/>
 
 > SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation       
@@ -38,7 +38,7 @@ Datasets are assumed to be downloaded under `data/<dataset-name>`.
 ### DDAD
 * Please download the official [DDAD dataset](https://tri-ml-public.s3.amazonaws.com/github/DDAD/datasets/DDAD.tar) and place them under `data/ddad/raw_data`. You may refer to official [DDAD repository](https://github.com/TRI-ML/DDAD) for more info and instructions.
 * Please download [metadata](https://cloud.tsinghua.edu.cn/f/50cb1ea5b1344db8b51c/?dl=1) of DDAD and place these pkl files in `datasets/ddad`.
-* We provide annotated self-occlusion masks for each sequences. Please download [masks]() and place them in `data/ddad/mask`.
+* We provide annotated self-occlusion masks for each sequences. Please download [masks](https://cloud.tsinghua.edu.cn/f/c654cd272a6a42c885f9/?dl=1) and place them in `data/ddad/mask`.
 * Export depth maps for evaluation 
 ```bash
 cd tools
