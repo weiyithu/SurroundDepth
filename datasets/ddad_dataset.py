@@ -129,7 +129,6 @@ class DDADDataset(MonoDataset):
             for idx, i in enumerate(self.frame_idxs):
                 inputs[('K_ori', i)] = np.stack(inputs[('K_ori', i)], axis=0) 
                 if i != 0:
-                    inputs[("pose", i)] = np.stack(inputs[("pose", i)], axis=0)
                     inputs[("pose_spatial", i)] = np.stack(inputs[("pose_spatial", i)], axis=0)
 
 
