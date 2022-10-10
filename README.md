@@ -1,5 +1,5 @@
 # SurroundDepth
-### [Project Page](https://surrounddepth.ivg-research.xyz/) | [Paper](https://arxiv.org/abs/2204.03636) | [Data](https://cloud.tsinghua.edu.cn/d/e3239333171342889ff2/)
+### [Project Page](https://surrounddepth.ivg-research.xyz/) | [Paper](https://arxiv.org/abs/2204.03636) | [Data](https://cloud.tsinghua.edu.cn/d/e3239333171342889ff2/) | [中文解读](https://zhuanlan.zhihu.com/p/565494125)
 <br/>
 
 > [CoRL 2022] SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation       
