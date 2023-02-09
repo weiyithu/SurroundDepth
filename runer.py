@@ -384,15 +384,7 @@ class Runer:
 
                     mask = np.logical_and(gt_depth > self.opt.min_depth, gt_depth < self.opt.max_depth)
                     
-                    if self.local_rank == 0:
-                        pred_depth_color = visualize_depth(pred_depth.copy())
-                        color = (input_color[i].cpu().permute(1,2,0).numpy())*255
-                        color = color[..., [2,1,0]]
-
-                        cv2.imwrite('visual_new/{}_{}_pred.jpg'.format(idx, i), pred_depth_color)
-                        cv2.imwrite('visual_new/{}_{}_rgb.jpg'.format(idx, i), color)
-                    
-
+     
                     pred_depth = pred_depth[mask]
                     gt_depth = gt_depth[mask]
                     
